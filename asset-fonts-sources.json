@@ -1,0 +1,37 @@
+[
+  {
+    "id": "instrument-serif",
+    "family": "Instrument Serif",
+    "file": "instrument-serif.ttf",
+    "source": "https://fonts.google.com/specimen/Instrument+Serif",
+    "download": "https://fonts.gstatic.com/s/instrumentserif/v5/jizBRFtNs2ka5fXjeivQ4LroWlx-2zI.ttf"
+  },
+  {
+    "id": "dm-serif",
+    "family": "DM Serif Display",
+    "file": "dm-serif.ttf",
+    "source": "https://fonts.google.com/specimen/DM+Serif+Display",
+    "download": "https://fonts.gstatic.com/s/dmserifdisplay/v17/-nFnOHM81r4j6k0gjAW3mujVU2B2K_c.ttf"
+  },
+  {
+    "id": "space-grotesk",
+    "family": "Space Grotesk",
+    "file": "space-grotesk.ttf",
+    "source": "https://fonts.google.com/specimen/Space+Grotesk",
+    "download": "https://fonts.gstatic.com/s/spacegrotesk/v22/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj7oUUsj.ttf"
+  },
+  {
+    "id": "ibm-plex-mono",
+    "family": "IBM Plex Mono",
+    "file": "ibm-plex-mono.ttf",
+    "source": "https://fonts.google.com/specimen/IBM+Plex+Mono",
+    "download": "https://fonts.gstatic.com/s/ibmplexmono/v20/-F63fjptAgt5VM-kVkqdyU8n5ig.ttf"
+  },
+  {
+    "id": "dm-sans",
+    "family": "DM Sans",
+    "file": "dm-sans.ttf",
+    "source": "https://fonts.google.com/specimen/DM+Sans",
+    "download": "https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxhTg.ttf"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": 0,
+    "query": "Ichiko Aoba Windswept Adan",
+    "album": "Windswept Adan",
+    "artist": "Ichiko Aoba",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/fa/fa/0d/fafa0dd1-dda3-0b1d-077e-8ed879031092/143997.jpg/600x600bb.jpg",
+    "source": "https://music.apple.com/us/album/windswept-adan/1714304663?uo=4"
+  },
+  {
+    "id": 1,
+    "query": "Men I Trust Oncle Jazz",
+    "album": "Oncle Jazz",
+    "artist": "Men I Trust",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/50/c6/94/50c694d6-36cd-8808-5da3-d677b7726b6c/artwork.jpg/600x600bb.jpg",
+    "source": "https://music.apple.com/us/album/oncle-jazz/1473993015?uo=4"
+  },
+  {
+    "id": 2,
+    "query": "Fishmans Long Season",
+    "album": "LONG SEASON '97 (LIVE / 1997.7.4 渋谷クラブクアトロ \"STYLE\")",
+    "artist": "Fishmans",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cc/58/06/cc58066d-8b9c-fa93-5547-5f65d4cbd6b9/823375518785_Cover.jpg/600x600bb.jpg",
+    "source": "https://music.apple.com/us/album/long-season-97-live-1997-7-4-%E6%B8%8B%E8%B0%B7%E3%82%AF%E3%83%A9%E3%83%96%E3%82%AF%E3%82%A2%E3%83%88%E3%83%AD-style/6820432826?uo=4"
+  },
+  {
+    "id": 3,
+    "query": "Khruangbin Con Todo El Mundo",
+    "album": "Con Todo El Mundo",
+    "artist": "Khruangbin",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/17/67/2e/17672e3b-9d01-2d5e-9b43-38f44b40f654/656605145365.jpg/600x600bb.jpg",
+    "source": "https://music.apple.com/us/album/con-todo-el-mundo/1299241642?uo=4"
+  },
+  {
+    "id": 4,
+    "query": "Lamp For Lovers",
+    "album": "恋人へ",
+    "artist": "Lamp",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/96/34/bd/9634bd06-4484-3792-ce1b-a64a96710d22/4521640105079_cover.jpg/600x600bb.jpg",
+    "source": "https://music.apple.com/us/album/%E6%81%8B%E4%BA%BA%E3%81%B8/1486281113?uo=4"
+  },
+  {
+    "id": 5,
+    "query": "Nujabes Modal Soul",
+    "album": "Metaphorical Music",
+    "artist": "Nujabes",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f3/20/32/f3203208-39f4-3d87-2bfb-918d7593bc38/HPD4.jpg/600x600bb.jpg",
+    "source": "https://music.apple.com/us/album/metaphorical-music/1078898175?uo=4"
+  },
+  {
+    "id": 6,
+    "query": "Air Moon Safari",
+    "album": "Moon Safari",
+    "artist": "Air",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/d1/f9/26/d1f926e7-e996-7166-3744-0710a82177ac/017046664455.jpg/600x600bb.jpg",
+    "source": "https://music.apple.com/us/album/moon-safari/693063670?uo=4"
+  },
+  {
+    "id": 7,
+    "query": "Sufjan Stevens Carrie Lowell",
+    "album": "Carrie & Lowell Live",
+    "artist": "Sufjan Stevens",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music91/v4/6b/20/6a/6b206ac1-e1b5-316d-334d-59df7b727fb6/656605613666.jpg/600x600bb.jpg",
+    "source": "https://music.apple.com/us/album/carrie-lowell-live/1227779973?uo=4"
+  },
+  {
+    "id": 8,
+    "query": "The Marias Cinema",
+    "album": "CINEMA",
+    "artist": "The Marías",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0b/67/3f/0b673fd4-5e49-fccd-6193-3076bef03f53/075679792389.jpg/600x600bb.jpg",
+    "source": "https://music.apple.com/us/album/cinema/1563957170?uo=4"
+  },
+  {
+    "id": 9,
+    "query": "Beach House Bloom",
+    "album": "Bloom",
+    "artist": "Beach House",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/8b/b7/08/8bb7086b-cdb5-1ffe-926b-e7637bda6a0d/BeachHouse_Bloom_iTunes.jpg/600x600bb.jpg",
+    "source": "https://music.apple.com/us/album/bloom/509665145?uo=4"
+  },
+  {
+    "id": 10,
+    "query": "Ryuichi Sakamoto async",
+    "album": "async",
+    "artist": "Ryuichi Sakamoto",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/82/e0/7b/82e07b9a-1d98-bbf4-d1e2-fb94312bbea2/731383683060.jpg/600x600bb.jpg",
+    "source": "https://music.apple.com/us/album/async/1507014129?uo=4"
+  },
+  {
+    "id": 11,
+    "query": "Faye Wong 浮躁",
+    "album": "浮躁",
+    "artist": "Faye Wong",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/f6/31/d6/f631d6d6-1fd0-272a-3feb-de30b4e69ace/00602517665095.rgb.jpg/600x600bb.jpg",
+    "source": "https://music.apple.com/us/album/%E6%B5%AE%E8%BA%81/1443287350?uo=4"
+  }
+]
