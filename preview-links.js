@@ -1,14 +1,21 @@
 (function(root){
   'use strict';
-  const providers={netease:'NetEase Music',qq:'QQ Music'};
+  const providers={netease:'NetEase Music',qq:'QQ Music',apple:'Apple Music'};
   function parse(input){
     const text=String(input||'').trim();
     const match=text.match(/https?:\/\/[^\s<>"“”]+/i);
-    if(!match) return {error:'Paste a full NetEase or QQ Music share link.'};
+    if(!match) return {error:'Paste an Apple Music, NetEase or QQ Music share link.'};
     let url; try{url=new URL(match[0].replace(/[，。；、）)]+$/,''));}catch{return {error:'Link not recognized. Copy it again.'};}
     const host=url.hostname.toLowerCase();
-    if(!['music.163.com','y.music.163.com','m.music.163.com','y.qq.com','i.y.qq.com','c.y.qq.com','c6.y.qq.com'].includes(host))return {error:'NetEase and QQ Music links are supported.'};
-    if(url.username||url.password||url.port) return {error:'Use a standard music-platform share link.'};
+    if(!['music.163.com','y.music.163.com','m.music.163.com','music.apple.com','y.qq.com','i.y.qq.com','c.y.qq.com','c6.y.qq.com'].includes(host))return {error:'Apple Music, NetEase and QQ Music links are supported.'};
+    if(url.protocol!=='https:'&&url.protocol!=='http:'||url.username||url.password||url.port) return {error:'Use a standard music-platform share link.'};
+    if(host==='music.apple.com'){
+      if(url.protocol!=='https:')return {error:'Use an HTTPS Apple Music link.'};
+      const route=url.pathname.match(/^\/([a-z]{2})\/(song|album)\/(?:[^/]+\/)?(\d{1,16})\/?$/i);
+      const id=route&&(route[2]==='album'?url.searchParams.get('i'):route[3]);
+      if(!route||!/^\d{1,16}$/.test(id||'')||!Number.isSafeInteger(Number(id)))return {error:'Use an Apple Music single-song share link.'};
+      const country=route[1].toLowerCase();return {provider:'apple',type:'song',id,country,key:`apple:song:${country}:${id}`,label:providers.apple,kind:'Track',sourceUrl:`https://music.apple.com/${country}/song/${id}`,embedUrl:`https://embed.music.apple.com/${country}/song/${id}`};
+    }
     if(['c.y.qq.com','c6.y.qq.com'].includes(host))return {error:'Open the short link first, then copy the full track-page URL.'};
     if(host.endsWith('163.com')){
       let path=url.pathname,params=url.searchParams;
