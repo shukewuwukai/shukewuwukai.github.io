@@ -1,0 +1,18 @@
+/* Shared desktop details. Keep typography and content intact. */
+.window .titlebar{color:#77756e;transition:color 100ms linear;background:#eeece3}.window.is-front .titlebar{color:var(--ink);background:var(--paper)}.window:not(.is-front) .title-lines{opacity:.45}.window.is-front{box-shadow:4px 4px 0 var(--ink)}
+.window-control:not(.zoom){position:relative;width:24px;height:24px;border:0;background:transparent;flex:0 0 24px;cursor:pointer}
+.window-control:not(.zoom)::before,.window-control:not(.zoom)::after{content:'';position:absolute;left:6px;top:11px;width:12px;height:2px;background:currentColor;transform:rotate(45deg);box-shadow:none}
+.window-control:not(.zoom)::after{transform:rotate(-45deg)}
+.window-control:not(.zoom):hover{color:var(--ink);background:#dcd9cd;outline:1px solid var(--ink);outline-offset:-2px}
+.window-control:not(.zoom):active{background:var(--ink);color:var(--paper);transform:none}
+.retro-button,.auth-tabs button,.settings-tabs button,.archive-view button{transition:background-color 80ms linear,box-shadow 80ms linear}
+.retro-button:not(:disabled):hover{box-shadow:inset 0 0 0 1px var(--ink)}
+.retro-button:not(:disabled):active{box-shadow:inset 2px 2px 0 #29282a55;transform:translate(1px,1px)}
+button:disabled{cursor:default}.retro-button:disabled{box-shadow:none;transform:none}
+input:not([type=checkbox]):not([type=range]):not([type=file]):focus,textarea:focus,select:focus{outline:2px solid var(--ink);outline-offset:2px;background:var(--paper)}
+button:focus-visible,a:focus-visible{outline:2px dotted var(--ink);outline-offset:3px}
+.daily-scroll,.floating-body,#board-list{scrollbar-width:thin;scrollbar-color:#77756e #e5e1d4}
+.daily-scroll::-webkit-scrollbar,.floating-body::-webkit-scrollbar{width:12px}
+.daily-scroll::-webkit-scrollbar-track,.floating-body::-webkit-scrollbar-track{background:repeating-linear-gradient(45deg,#e5e1d4 0 1px,#f5f2e8 1px 3px);border-left:1px solid var(--ink)}
+.daily-scroll::-webkit-scrollbar-thumb,.floating-body::-webkit-scrollbar-thumb{background:#d7d1ac;border:1px solid var(--ink)}
+.reduced-motion .window .titlebar,.reduced-motion .retro-button{transition:none}
